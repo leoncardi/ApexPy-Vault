@@ -53,8 +53,6 @@ class Summarizer:
                     print(log)
 
 if __name__ == '__main__':
-    # Modularized Implematiation Example
-
     file_name_to_summarize = 'example.log'
     def summarizer_impl(file_name_to_summarize):
         summarizer = Summarizer(file_name_to_summarize)
